@@ -20,7 +20,7 @@
 
 .swiper-pagination{
     position: initial;
-    margin: 0   .5em 0;
+    margin: 0.5em 0;
 }
 
 .card__descrição{
@@ -70,7 +70,7 @@
     background-color: var(--laranja);
     padding: 1em 2.2em;
     color: var(--branco);
-    font-weight: 700    ;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -97,10 +97,12 @@
 }
 
 @media screen and (min-width: 1728px){
-    .carrossel__container{
-        display: flex;
-        margin: 0 20vw 3em 20vw;
-    }
+   .carrossel__container{
+    display: flex;
+    width: 50%;
+    margin: 0 20vw 3em 30vw;
+    align-items: center;
+   }
 
     .swiper-pagination{
         margin: 1em 0;
@@ -119,7 +121,7 @@
     }
 
     .card{
-        width: 60%;
+        width: 40%;
         margin-left: 3em ;
     }
 }
